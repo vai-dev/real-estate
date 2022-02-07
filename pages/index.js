@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { HeaderTop } from '../components/HeaderTop'
+import { HomeBanner } from '../components/HomeBanner'
 import { Nav } from '../components/Nav'
 import styles from '../styles/HeaderTop.module.css'
 
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <HeaderTop />
       <Nav />
+      <HomeBanner />
     </div>
   )
 }
