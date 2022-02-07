@@ -1,0 +1,65 @@
+.header_top {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+
+}
+.header_top_container {
+    max-width: 1128px;
+    color: #fff;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+/* Header Top Left */
+.header_top_left {
+    display: flex;
+    height: 100%;
+    align-items: center;
+   
+}
+.hotline, .mobile{
+   
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.hotline h3, .mobile h3{
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Header Top Right */
+.header_top_right {
+    display: flex;
+    align-items: center;
+}
+.language_container,.header_login,.header_register {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.flage {
+    width: 30px;
+    height: 20px;
+}
+.languge_name {
+    font-size: 14px;
+    margin-left: 5px;
+}
+.header_login {
+   
+}
+.user_login {
+    margin-left: -5px;
+}
+.header_register {
+
+}
+
