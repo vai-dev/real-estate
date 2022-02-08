@@ -1,8 +1,7 @@
-import React from 'react';
+import Link from 'next/link';
 import navStyle from '../styles/Nav.module.css'
 import Image from 'next/image';
 import navLogo from '../image/header-logo.png'
-
 export const Nav = () => {
     return (
         <div className={ navStyle.nav_header}>
@@ -12,31 +11,30 @@ export const Nav = () => {
                 </div>
                 <div className={navStyle.nav_right}>
                     <nav>
-                        <ul className={ navStyle.ul}>
-                            <li className={navStyle.active}>
-                                <a href=''>Home</a>
-                            </li>
+                        <ul className={navStyle.ul}>
                             <li>
-                                <a href=''>Buy</a>
-                                <box-icon name='caret-down' size="xs"></box-icon>
-                                <ul className={navStyle.buy_sub}></ul>
-                            </li>
+                                <Link href='/'>Home</Link>
+                            </li> 
                             <li>
-                                <a href=''>Rent</a>
-                                <box-icon name='caret-down' size="xs"></box-icon>
-                            </li>
+                                <Link href='/buy'>Buy</Link>
+                                <box-icon type='solid' name='chevron-down' size='xs'></box-icon>
+                            </li> 
                             <li>
-                                <a href=''>New Developments</a>
-                                <box-icon name='caret-down' size="xs"></box-icon>
-                            </li>
+                                <Link href='/rent'>Rent</Link>
+                                <box-icon type='solid' name='chevron-down' size='xs'></box-icon>
+                            </li> 
                             <li>
-                                <a href=''>Agents</a>
-                                <box-icon name='caret-down' size="xs"></box-icon>
-                            </li>
+                                <Link href='/new'>New Development</Link>
+                                <box-icon type='solid' name='chevron-down' size='xs'></box-icon>
+                            </li> 
                             <li>
-                                <a href=''>New</a>
-                                <box-icon name='caret-down' size="xs"></box-icon>
-                            </li>
+                                <Link href='/agents'>Agents</Link>
+                                <box-icon type='solid' name='chevron-down' size='xs'></box-icon>
+                            </li> 
+                            <li>
+                                <Link href='/news'>News</Link>
+                                <box-icon type='solid' name='chevron-down' size='xs'></box-icon>
+                            </li> 
                         </ul>
                     </nav>
                 </div>

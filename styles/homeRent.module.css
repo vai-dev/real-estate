@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.new_dev_container {
+    max-width: 1128px;
+    width: 100%;
+    margin: 0 auto;
+}
+.new_dev_title {
+    padding-top: 2.5rem;
+    margin-bottom: 1.2rem;
+    color: rgb(59, 59, 59);
+    font-size: 1.8rem;
+}
+.card_container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.cards {
+    border-radius: 4px;
+    background-color: white !important;
+    border: 1px  solid lightgray;
+    overflow: hidden;
+}
+.image {
+    position: relative;
+    width: 100%;
+    margin-bottom: .7rem;
+}
+.view {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    top: 8px;
+    right: 8px;
+    justify-content: space-around;
+    align-items: center;
+    width: 65px;
+    height: 25px;
+    border-radius: 1rem;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 2;
+    color: white;
+}
+.number_view {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+.property_name {
+    margin: .7rem;
+    color: rgb(59, 59, 59);
+    font-size: 1.3rem;
+    font-weight: 600;
+ 
+}
+.location {
+    color: gray;
+    font-size: 1rem;
+    margin-left: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+.property_details {
+    color: rgb(59, 59, 59);
+    margin-left: 0.7rem;
+    font-size: .8rem;
+    margin-bottom: 0.7rem;
+}
+.property_price {
+    color: #ff7800;
+    font-weight: 700;
+    margin-left: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+.property_date_post_container {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0.7rem ;
+    
+}
+.property_date_post{
+    font-size: 0.8rem;
+}
+.view_more {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.view_more a{
+    text-decoration: none;
+    color: gray;
+    margin-right: -10px;
+    font-weight: 300;
+}
