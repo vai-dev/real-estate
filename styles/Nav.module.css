@@ -26,10 +26,42 @@
 }
 .ul li {
     list-style: none;
+    padding: 1rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     font-size: 1.1rem;
     font-weight: 400;
-    margin-left: 1.5rem;
+    position: relative;
+}
+.ul li .sub_folder1 {
+    display: none;
+    width: 850px;
+    height: 370px;
+    top: 45px;
+    left: -350px;
+    border-radius: 4px;
+    z-index: 100;
+    background-color: white;
+    position: absolute;
+   
+}
+.ul li:hover .sub_folder1{
+    display: block;
+}
+.ul li .sub_folder2 {
+    display: none;
+    
+    width: 850px;
+    height: 370px;
+    top: 45px;
+    left: -370px;
+    border-radius: 4px;
+    z-index: 100;
+    background-color: white;
+    position: absolute;
+   
+}
+.ul li:hover .sub_folder2{
+    display: block;
 }

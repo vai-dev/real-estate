@@ -18,10 +18,16 @@ export const Nav = () => {
                             <li>
                                 <Link href='/buy'>Buy</Link>
                                 <box-icon type='solid' name='chevron-down' size='xs'></box-icon>
+                                <div className={navStyle.sub_folder1}>
+
+                                </div>
                             </li> 
                             <li>
                                 <Link href='/rent'>Rent</Link>
                                 <box-icon type='solid' name='chevron-down' size='xs'></box-icon>
+                                <div className={navStyle.sub_folder2}>
+
+                                </div>
                             </li> 
                             <li>
                                 <Link href='/new'>New Development</Link>
