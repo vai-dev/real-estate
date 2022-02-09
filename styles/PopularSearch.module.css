@@ -1,0 +1,30 @@
+.popular {
+    width: 100%;
+    background-color: #f7f7f7;
+    padding-bottom: 1.5rem;
+}
+.container {
+    max-width: 1128px;
+    margin: 0  auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 2rem 1.5rem ;
+}
+.title {
+    margin-bottom: 1.2rem;
+    color: rgb(59, 59, 59);
+}
+.search_container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.cards_container {
+    
+}
+.cards_container li {
+    list-style: none;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    color: gray;
+}

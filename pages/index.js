@@ -1,9 +1,11 @@
 import Head from 'next/head'
+import { Footer } from '../components/Footer'
 import { HomeBanner } from '../components/HomeBanner'
 import { HomeBuy } from '../components/HomeBuy'
 import { HomeRent } from '../components/HomeRent'
 import { NewDev } from '../components/NewDev'
 import { PopularLocation } from '../components/PopularLocation'
+import { PopularSearch } from '../components/PopularSearch'
 import style from '../styles/Hody.module.css'
 export default function Home() {
   return (
@@ -16,9 +18,11 @@ export default function Home() {
         </Head>
         <HomeBanner />
         <NewDev />
-        <HomeBuy />
+      <HomeBuy title='Buys'/>
         <HomeRent /> 
-        <PopularLocation />
+      <PopularLocation />
+      <PopularSearch />
+      <Footer />
     </div>
   )
 }

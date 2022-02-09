@@ -1,11 +1,9 @@
+import React from 'react';
 import Head from "next/head"
 import { HomeBuy } from '../components/HomeBuy'
 import { Footer } from '../components/Footer'
-import { Filter } from "../components/Filter"
-export default function Buy() {
-    const title = 'Residential'
+export default function Rent () {
     return (
-        
         <div>
             <Head>
                 <title>KH Real Eatate - Buy</title>
@@ -13,12 +11,10 @@ export default function Buy() {
                 <link rel="icon" href="/favicon-re.png" />
                 <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
             </Head>
-            <Filter />
-            <HomeBuy title={ title }/>
+            <HomeBuy title='Residentails'/>
             <HomeBuy title='Commercial'/>
             <HomeBuy title='Land' />
-            <Footer />
-           
+            <Footer/>
         </div>
     )
-}
+};

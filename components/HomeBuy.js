@@ -4,11 +4,11 @@ import Image from 'next/image';
 import cardImage from '../image/card-image.jpg'
 import heartIcon from '../image/heart-gray.png'
 import viewIcon from '../image/view.png'
-export const HomeBuy = () => {
+export const HomeBuy = ({title}) => {
     return (
         <div className={ homeBuy.container}>
             <div className={homeBuy.new_dev_container}>
-                <h2 className={homeBuy.new_dev_title}>Buys</h2>
+                <h2 className={homeBuy.new_dev_title}>{ title }</h2>
                 <div className={homeBuy.card_container}>
                     <div className={ homeBuy.cards}>
                         <div className={homeBuy.image} >
